@@ -1,0 +1,48 @@
+/* Layout */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 250px;
+    min-height: calc(100vh - 56px);
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Navigation */
+.nav-link {
+    color: #333;
+    padding: 8px 16px;
+}
+
+.nav-link:hover {
+    background-color: #e9ecef;
+}
+
+/* Cards */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Forms */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Tables */
+.table-responsive {
+    margin-bottom: 1rem;
+} 
